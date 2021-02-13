@@ -1,6 +1,6 @@
 const Discord = require("discord.js"); //discord.jsyi internet üzerinden çekerek bir değişken tanımlıyoruz
 const client= new Discord.Client();    // client olarak atadığım değişkenin discordun clientine bağlanmasını sağlıyorum
-client.login("ODA5MDU5NTQ5NjEyODY3NTk1.YCPlbA.vcvmMHElxwqG4jYPYLeBMYBSxz8"); //oluşturduğumuz bota bağlanmak için gerek token anahatarını girerek cliente login olmamızı sağlayan komut satırı . 
+client.login("discord botunuzun tokenini giriniz"); //oluşturduğumuz bota bağlanmak için gerek token anahatarını girerek cliente login olmamızı sağlayan komut satırı . 
 const axios = require('axios'); //axios adlı api çekerken kullandığımız kütüphanenin tanımlaması
 
 
